@@ -52,4 +52,36 @@ model = AutoModelForSequenceClassification.from_pretrained(model_ckpt)
 
 
 
+## **Usage**
+
+### **Command Line Interface (CLI)**
+```bash
+python classify_emotion.py --text "I am so happy today!"
+
+```
+### **Graphical User Interface (GUI)**
+```bash
+python emotion_gui.py
+
+
+```
+
+## **Train the model**
+
+### ****
+```bash
+python train_emotion_classifier.py --epochs 3 --batch_size 32 --lr 2e-5
+
+
+```
+
+
+
+
+
+
+
+
+
+
 
