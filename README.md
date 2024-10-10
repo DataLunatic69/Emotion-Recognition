@@ -35,5 +35,11 @@ The Emotion Classifier uses **DistilBERT** to detect emotions from text input. I
 ```bash
 git clone https://github.com/your-username/emotion-classifier.git
 cd emotion-classifier
+```
+```bash
+pip install -r requirements.txt
+```
+
+
 
 
