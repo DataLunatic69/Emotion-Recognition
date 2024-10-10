@@ -75,6 +75,27 @@ python train_emotion_classifier.py --epochs 3 --batch_size 32 --lr 2e-5
 
 ```
 
+## **Model Performance**
+```bash
+
+Metric	Value
+Accuracy	92.5%
+Weighted F1	0.91
+
+
+```
+
+
+
+### **License**
+```bash
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+```
+
+
+
+
 
 
 
