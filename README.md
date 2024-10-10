@@ -37,5 +37,3 @@ git clone https://github.com/your-username/emotion-classifier.git
 cd emotion-classifier
 
 
-pip install -r requirements.txt
-
