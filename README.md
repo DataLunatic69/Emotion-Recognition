@@ -68,7 +68,7 @@ python emotion_gui.py
 
 ## **Train the model**
 
-### ****
+
 ```bash
 python train_emotion_classifier.py --epochs 3 --batch_size 32 --lr 2e-5
 
