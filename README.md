@@ -36,9 +36,18 @@ The Emotion Classifier uses **DistilBERT** to detect emotions from text input. I
 git clone https://github.com/your-username/emotion-classifier.git
 cd emotion-classifier
 ```
-### **Install Dependencies**
+### **2. Install Dependencies**
 ```bash
 pip install -r requirements.txt
+```
+### **3. Download Pretrained Models**
+```bash
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+model_ckpt = "distilbert-base-uncased"
+tokenizer = AutoTokenizer.from_pretrained(model_ckpt)
+model = AutoModelForSequenceClassification.from_pretrained(model_ckpt)
+
 ```
 
 
